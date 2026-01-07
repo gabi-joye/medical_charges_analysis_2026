@@ -1,7 +1,7 @@
 # medical_charges_analysis_2026
 This analysis uses a medical charges database to analyze the differences and similarities to charges accrued by those recorded.
 The database used in this analysis consists of a table (medical_charges mc) with the columns age, sex (male or female), bmi, children (whether they have kids), smoker (yes or no), region, and charges.
-![](https://raw.githubusercontent.com/gabi-joye/medical_charges_analysis_2026/refs/heads/main/Screenshot%202026-01-06%20201641.png)
+
 This analysis focuses on 5 main questions-
 
 Do smokers pay more in medical charges on average?
@@ -19,6 +19,8 @@ Findings-
 Based on our data the average non-smoker spent $8,434 in medical charges while the average smoker spent $32,050. Meaning a smoker spent 79.16% more on medical charges than the non smoker.
 
 As age increases so does the average medical charges showing that the older patients spend more on average than the younger. 
+
+![](https://github.com/gabi-joye/medical_charges_analysis_2026/blob/main/Screenshot%202026-01-06%20204533.png)
 
 The region with the highest average charge per age group is southeast in most cases. When ages are separated into bins of 10-20, 21-30, 31-40, 41-50, and 51+ we are able to tell that southeast has the highest average charges in all age groups aside from 31-40 where southwest has the highest at 12010 and 10-20 where northwest has 9,773. Based on this information we can infer the hospitals in the southeast charge more, however a more rigorous analysis would be required to conform this.
 
