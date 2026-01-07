@@ -1,7 +1,7 @@
 # medical_charges_analysis_2026
 This analysis uses a medical charges database to analyze the differences and similarities to charges accrued by those recorded.
 The database used in this analysis consists of a table (medical_charges mc) with the columns age, sex (male or female), bmi, children (whether they have kids), smoker (yes or no), region, and charges.
-
+![](https://raw.githubusercontent.com/gabi-joye/medical_charges_analysis_2026/refs/heads/main/Screenshot%202026-01-06%20201641.png)
 This analysis focuses on 5 main questions-
 
 Do smokers pay more in medical charges on average?
