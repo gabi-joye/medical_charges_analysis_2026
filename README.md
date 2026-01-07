@@ -26,4 +26,6 @@ The region with the highest average charge per age group is southeast in most ca
 
 When compairing medical charges of people of simmilar age ans sex who do and do not smoke we can see a jerastic differance between the too. Smokins bad for you, who knew?
 
+![](https://github.com/gabi-joye/medical_charges_analysis_2026/blob/main/Screenshot%202026-01-06%20202920.png)
+
 Lastly we compared the average charges accumulated by people with BMIs over  and under 24.9. This number was chosen because 24.9 BMI is considered normal in the US while a BMI over this is considered overweight. People with a BMI over 24.9 pay about 7.6% more than those  with a BMI of 24.9 or lower, while this may be significant further analysis would be recommended.
