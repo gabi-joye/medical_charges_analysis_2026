@@ -1,31 +1,73 @@
 # medical_charges_analysis_2026
-This analysis uses a medical charges database to analyze the differences and similarities to charges accrued by those recorded.
-The database used in this analysis consists of a table (medical_charges mc) with the columns age, sex (male or female), bmi, children (whether they have kids), smoker (yes or no), region, and charges.
 
-This analysis focuses on 5 main questions-
 
-Do smokers pay more in medical charges on average?
+Exploring the impact of lifestyle, demographics, and region on healthcare costs
 
-Does age affect the amount paid on average?
+# Project Summary
 
-What region has the highest average charger per age group?
+This project analyzes a medical charges dataset to uncover key factors that influence healthcare costs. The goal is to identify meaningful patterns and provide data-driven insights into how variables like smoking, age, BMI, and region affect medical expenses.
 
-How do the charges of those who do and do not smoke and are of similar ages and sex compared?
+# Dataset
 
-A BMI over 24.9 is considered overweight for the average American. Does being over this limit affect your medical charges?
+The dataset (medical_charges) includes the following features:
 
-Findings-
+Column	Description
+age	Patient age
+sex	Male or female
+bmi	Body Mass Index
+children	Number of dependents
+smoker	Smoking status (yes/no)
+region	Geographic region
+charges	Medical costs billed
 
-Based on our data the average non-smoker spent $8,434 in medical charges while the average smoker spent $32,050. Meaning a smoker spent 79.16% more on medical charges than the non smoker.
+# Objectives
 
-As age increases so does the average medical charges showing that the older patients spend more on average than the younger. 
+This analysis answers the following key questions:
+
+Do smokers pay more in medical charges?
+How does age influence healthcare costs?
+Which regions have the highest average charges?
+How do smokers vs. non-smokers compare when controlling for age and sex?
+Does being overweight (BMI > 24.9) increase medical expenses?
+
+# Key Insights
+
+Smoking Drives Higher Costs
+Smokers pay ~4x more than non-smokers on average
+Smoking is the strongest predictor of high medical charges in this dataset
+Age Correlates with Increased Spending
+Medical charges increase steadily with age
+Older individuals incur significantly higher healthcare costs
+
+Regional Cost Differences-
+The Southeast region shows the highest average charges in most age groups
+Some variation exists across age bins, suggesting regional pricing differences
+Controlled Comparison (Age & Sex)
+Even when comparing individuals of similar age and sex:
+Smokers consistently have much higher costs
+Reinforces smoking as a major cost driver
+
+BMI Impact-
+Individuals with BMI > 24.9 pay ~7.6% more on average
+Indicates a moderate relationship between weight and healthcare costs
+
+# What This Project Demonstrates
+
+Ability to clean and analyze structured data
+Writing efficient SQL queries for real-world datasets
+Performing exploratory data analysis (EDA)
+Drawing insightful, business-relevant conclusions
+Communicating findings clearly through visualizations and summaries
+ 
+Future Improvements
+Apply statistical testing to validate findings
+Build a predictive model for medical charges
+Incorporate additional variables (e.g., insurance type, medical history)
+Develop an interactive dashboard (Tableau / Power BI)
 
 ![](https://github.com/gabi-joye/medical_charges_analysis_2026/blob/main/Screenshot%202026-01-06%20204533.png)
 
-The region with the highest average charge per age group is southeast in most cases. When ages are separated into bins of 10-20, 21-30, 31-40, 41-50, and 51+ we are able to tell that southeast has the highest average charges in all age groups aside from 31-40 where southwest has the highest at 12010 and 10-20 where northwest has 9,773. Based on this information we can infer the hospitals in the southeast charge more, however a more rigorous analysis would be required to conform this.
-
-When compairing medical charges of people of simmilar age ans sex who do and do not smoke we can see a jerastic differance between the too. Smokins bad for you, who knew?
 
 ![](https://github.com/gabi-joye/medical_charges_analysis_2026/blob/main/Screenshot%202026-01-06%20202920.png)
 
-Lastly we compared the average charges accumulated by people with BMIs over  and under 24.9. This number was chosen because 24.9 BMI is considered normal in the US while a BMI over this is considered overweight. People with a BMI over 24.9 pay about 7.6% more than those  with a BMI of 24.9 or lower, while this may be significant further analysis would be recommended.
+
