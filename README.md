@@ -20,6 +20,10 @@ smoker	Smoking status (yes/no)
 region	Geographic region
 charges	Medical costs billed
 
+# Tools Used
+
+SQL Lite, DBeaver
+
 # Objectives
 
 This analysis answers the following key questions:
